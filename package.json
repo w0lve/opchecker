@@ -1,0 +1,21 @@
+{
+  "name": "opchecker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "frog vercel-build",
+    "dev": "frog dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "ethers": "^6.13.3",
+    "frog": "latest",
+    "hono": "^4",
+    "systemjs": "^6.15.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "vercel": "^32.3.0"
+  }
+}
